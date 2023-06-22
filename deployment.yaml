@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: react-app
-        image: reccaneo/reactapp-ci:1.0
+        image: reccaneo/reactapp-ci:67b54c548c8fe00dabeb793d69c08f7450cc4a7a
         imagePullPolicy: Always
         ports:
           - containerPort: 80
